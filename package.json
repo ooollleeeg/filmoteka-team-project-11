@@ -4,6 +4,8 @@
   "description": "",
   "homepage": "https://ooollleeeg.github.io/filmoteka-team-project-11",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /filmoteka-team-project-11/"
   },
