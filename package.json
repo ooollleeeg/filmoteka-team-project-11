@@ -5,8 +5,8 @@
   "homepage": "https://ooollleeeg.github.io/filmoteka-team-project-11",
   "scripts": {
    
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /filmoteka-team-project-11/"
+    "start": "parcel src/*.html --no-cache",
+    "build": "parcel build src/*.html  --no-cache --public-url /filmoteka-team-project-11/"
   },
   "repository": {
     "type": "git",
